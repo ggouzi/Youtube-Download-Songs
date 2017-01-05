@@ -1,0 +1,7 @@
+Style/AccessModifierIndentation:
+  EnforcedStyle: outdent
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+require: rubocop-rspec

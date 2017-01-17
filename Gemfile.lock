@@ -10,14 +10,43 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.1)
     concurrent-ruby (1.0.2)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
     i18n (0.7.0)
+    json (2.0.2)
+    memoist (0.15.0)
+    method_source (0.8.2)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.1)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
     scrapifier (0.0.6)
       nokogiri (~> 1.6)
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    slop (3.6.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -28,7 +57,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  memoist
+  nokogiri
+  pry
+  rspec
   scrapifier
+  simplecov
   youtube-dl.rb
 
 BUNDLED WITH
